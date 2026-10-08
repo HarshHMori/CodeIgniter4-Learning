@@ -1,0 +1,18 @@
+-- check composer is installed by typing "composer"
+
+-- create project by this
+    "composer create-project codeigniter4/appstarter url-shortener"
+
+-- check spark is installed
+    "php spark"
+
+-- making controller (URLController)
+    "php spark make:controller URL --suffix
+
+-- to start development server
+    "php spark serve"
+
+-- to use the html controllers them make the changes in the base controller file
+    "protected $helpers = ["html"];"
+
+    then use "link_tag('style.css')" like html helpers
